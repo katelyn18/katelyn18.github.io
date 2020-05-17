@@ -1,0 +1,69 @@
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  background: linear-gradient( #928DAB, #00d2ff);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+  margin-top: 1em;
+}
+.container{
+    margin-top: 10%;
+}
+
+.col-6{
+    text-align: center;
+}
+
+.modal-content{
+  background-color: #89edff;
+}
+
+.modal-header{
+  border-bottom: 1px solid black;
+}
+
+.myparagraph{
+    margin-bottom: 0;
+}
+
+.mymodal{
+    text-align: left;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+input, textarea{
+  margin-top: 2em;
+}
+
+textarea{
+  resize: none;
+}
+
+textarea.form-control{
+  height: 7em;
+}
+
+#my-form-status{
+  margin-top: 1em;
+}
+
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
