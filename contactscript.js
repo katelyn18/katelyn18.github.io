@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Message sent! Please return Home";
+      status.innerHTML = "Message sent! Click the button at the top to return home.";
     }
 
     function error() {
