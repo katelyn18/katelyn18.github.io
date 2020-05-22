@@ -10,6 +10,10 @@ body{
   background-size: cover;
 }
 
+a{
+  color: #0300ae;
+}
+
 button{
   margin-top: 1em;
 }
@@ -35,6 +39,10 @@ button{
 
 .mymodal{
     text-align: left;
+}
+
+a{
+  pointer-events: all;
 }
 
 .footer{
