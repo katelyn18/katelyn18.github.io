@@ -21,8 +21,8 @@
 			<p class="myparagraph">Masters in Business Administration</p>
 
 			<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#aboutme">About Me</button>
-			<!-- data-target="#resume" -->
-			<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#resume">Resume</button>
+			<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#resume" id="resume-btn1">Resume</button>
+			<a href="Resume2.pdf" target="_blank" class="btn btn-outline-dark" id="resume-btn2">Resume</a>
 			<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#projects">Projects</button>
 			<button type="button" class="btn btn-outline-dark" onclick="window.location.href = 'contactme.html';">Contact Me</button>
 
@@ -40,7 +40,7 @@
 						<p>
 							Hello! My name is Katelyn. <br>
 							I am a graduate of California State University, Fullerton. I got my MBA in the summer of 2020 and my Bachelors of Science in Computer Science in the spring of 2019. <br>
-							I am a well-rounded, hard working, and fun individual. I am a team player, willing to work with almost anyone to accomplish the same goal. Currently, I am looking for a job where I can best utilize and grow my programming skills.  
+							I am a well-rounded, hard working, and fun individual. I am a team player, willing to work with almost anyone to accomplish the same goal. I am a proactive individual desiring to utilize and expand relevant communication skills, work experience, and education in an entry level Web Development position. 
 						</p>
 					</div>
 				</div>
@@ -49,50 +49,18 @@
 
 			<!--Resume-->
 			<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-				  <div class="modal-content">
+				<div class="modal-dialog resume-dialog">
+				  <div class="modal-content resume-modal">
 					<div class="modal-header">
 					  <h5 class="modal-title" id="mybuttonlabel">Resume</h5>
 					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					  </button>
 					</div>
-					<div class="modal-body modal-dialog modal-dialog-centered modal-dialog-scrollable mymodal">
-						<p><b>Education:</b></p>
-						<p>California State University, Fullerton</p>
-						<ul>
-							<li>Bachelors of Science in Computer Science (May 2019)</li>
-							<li>Masters in Business Administration (July 2020)</li>
-						</ul>
-						<p><b>Relevant Coursework:</b></p>
-						<ul>
-							<li>Visual C# Programming</li>
-							<li>Cryptography</li>
-							<li>Web Front-End Engineering</li>
-							<li>Introduction to High Performance Computing</li>
-							<li>Project Management</li>
-						</ul>
-						<p><b>Technical Skills:</b></p>
-						<ul>
-							<li>Familiarity with jQuery, Python, SQL, PHP</li>
-							<li>Proficient with C++, C#, C, Java, HTML, CSS, JavaScript</li>
-							<li>Familiarity with Virtual Box</li>
-							<li>Proficient with the use of Microsoft Word, Microsoft PowerPoint, Microsoft Excel</li>
-							<li>Familiarity with the use of Visual Studio Code</li>
-							<li>Proficient with the use of Visual Studios and Net Beans</li>
-							<li>Proficient with the use of Mac OS, Microsoft Windows, Linux (Ubuntu)</li>
-						</ul>
-						<p><b>Work:</b></p>
-						<p>Juice It Up!</p>
-						<p>(August 2016 - March 2020)</p>
-						<ul>
-							<li>Utilizes effective communication skills to professionally interact with customers and coworkers</li>
-							<li>Performs well in a fast paced environment to successfully meet the business and customer needs</li>
-							<li>Takes ownership of tasks and works independently</li>
-							<li>Successfully completes tasks in a timely manner</li>
-							<li>Performs well in a team environment</li>
-							<li>Mentor new employees by providing guidance</li>
-						</ul>
+					<div class="modal-body modal-dialog modal-dialog-centered modal-dialog-scrollable mymodal body-modal">
+						<object class="resume" data="Resume2.pdf#view=FitH" type="application/pdf">
+							<embed src="Resume2.pdf#view=FitH" type="application/pdf" />
+						</object>
 					</div>
 				</div>
 				</div>
@@ -133,7 +101,7 @@
       </div>
   </div>
   <div class="footer">
-    <p>&copy;Katelyn Jaing 2020</p>
+    <p>&copy; Katelyn Jaing <script src="date.js"></script></p>
   </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
